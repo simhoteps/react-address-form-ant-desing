@@ -1,9 +1,12 @@
-# Getting Started with Create React App
+## Getting Started React Project
 
+First, run the development server:
 
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+# or
+npm start
+```
+#  Live Link
+You can view the live version of the site: [`Address Form`](https://react-address-form-ant-desing.vercel.app/)
 
