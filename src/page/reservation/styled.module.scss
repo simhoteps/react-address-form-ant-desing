@@ -1,0 +1,14 @@
+@import "layouts/mainStyles/mainColors.scss";
+@import "layouts/mainStyles/mainText.scss";
+
+.border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+  border: 1px solid $gray3;
+  padding: 24px;
+  border-radius: 8px;
+  color: $black;
+  background-color: $white;
+}

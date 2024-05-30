@@ -1,0 +1,58 @@
+@import "layouts/mainStyles/mainColors.scss";
+@import "layouts/mainStyles/mainText.scss";
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+.title {
+  font-size: $subtitle_fontSize;
+  font-weight: $subtitle3_fontWeight;
+}
+
+
+.rowContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.rowSpaceContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  justify-content: space-between;
+}
+.basketItemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 420px;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.detailImg{
+  width: 100%;
+  border-radius: 16px;
+}
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+  .basketItem {
+    width: 100%;
+  }
+}
+
+@media (max-width: 701px) {
+
+  .basketItem {
+    width: 100%;
+  }
+}
